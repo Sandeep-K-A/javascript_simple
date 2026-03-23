@@ -18,13 +18,13 @@ function calculateGrade(){
 
     if (averageMarks >= 90){
         grade = 'A+';
-    } else if (averageMarks >= 80){
+    } else if (averageMarks >= 80 && averageMarks <=89){
         grade = 'A';
-    } else if (averageMarks >= 70){
+    } else if (averageMarks >= 70 && averageMarks <=79){
         grade = 'B';
-    } else if (averageMarks >= 60){
+    } else if (averageMarks >= 60 && averageMarks <=69){
         grade = 'C';
-    } else if (averageMarks >= 50){
+    } else if (averageMarks >= 50 && averageMarks <=59){
         grade = 'D';
     } else {
         grade = 'F'
